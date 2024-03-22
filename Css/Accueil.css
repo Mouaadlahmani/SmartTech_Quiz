@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&display=swap');
+
+body{
+    background-color: #0B666A;
+}
+.content{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     /* background-color: blue;     */
+}
+
+.bienvunue{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:#E0E6E4;
+    width: 30%;
+    height: 20vh;
+    border-radius:6px ;
+    margin-top: 1%;
+}
+.bienvunue h3{
+    font-family: "Abril Fatface", serif;
+}
+.card{
+display: flex;
+align-items: center;
+ width: 30%;
+ height: 70vh;
+ margin-top: 1%;
+
+}
+.Taux_chaque_quiz{
+
+    
+}
+.SmartTech_quiz{
+   
+    text-align: center;
+}
+.btn{
+    width: 75%;
+    background-color: #23E6B7;
+}

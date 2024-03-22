@@ -1,31 +1,67 @@
 body{
-     /* background-color: black;  */
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    gap: 1em;
-    margin-bottom: 0;
+     background-color: #0B666A;
 }
-.custom-control {
-    position: relative;
-    font-size: 17px;
+.container{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
+
+}
+.form-check{
+    font-size: 18px;
     border: 2px solid #23E6B7;
     background-color: #23E6B7;
     border-radius: 35px 35px 35px 35px;
-    width: 70%;
+    width: 85%;
+    height: 12%;
+    display: flex;
+    align-items: center;
 }
 .card{
-    /* background-color: blue; */
+     /* background-color: blue;  */
     display: flex;
     gap: 1em;
     align-items: center;
+    justify-content: center;
     padding-bottom: 3%;
-    width: 75%;
+    width: 50%;
+    height: 70vh;
 }
 .btn{
-    width: 10%;
     border: 2px solid #23E6B7;
     background-color: #23E6B7;
     color: black;
     border-radius: 35px 35px 35px 35px;
+}
+#chrono{
+    font-size: 30px;
+    color: white;
+}
+.progress-stacked{
+    gap: 0.2em;
+    width: 60%;
+    background-color: #0B666A;
+    border-radius: 20px;
+}
+.progress-bar{
+    border-radius: 20px;
+    background-color: #23E6B7;
+}
+.progress{
+    width: 10%;
+    color: #23E6B7;
+}
+.custom-control-label{
+    font-weight: bold;
+}
+input[type=radio] {
+    border: 0px;
+    width: 8%;
+    height: 1.2em;
+}
+#question{
+    text-align: center;
 }
