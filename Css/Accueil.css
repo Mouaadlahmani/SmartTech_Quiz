@@ -1,0 +1,36 @@
+body{
+ 
+}
+.content{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+      /* background-color: blue; */
+}
+
+
+
+.bienvunue{
+    display: flex; 
+    justify-content: center;
+    align-items: center;  
+    background-color:#1ddb9c;
+    width: 40%;
+    height: 20vh;
+    border-radius:6px ;
+    margin-top: 1%;
+    box-shadow: 0 0 5px;
+}
+
+.card{
+    padding: 1px;
+    width: 40%;
+    height: 70vh;
+    margin-top: 1%;
+    box-shadow: 0 0 5px;
+}
+.SmartTech_quiz{
+    text-align: center;
+
+}
+

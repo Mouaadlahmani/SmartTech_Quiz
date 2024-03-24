@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>questions</title>
+    <link rel="stylesheet" href="Css/bootstrap.min.css">
+    <link rel="stylesheet" href="Css/Question.css">
+   
+</head>
+
+<body onload="demarerChrono()">
+  
+<div class="container-lg d-flex justify-content-evenly" id="container-lg">
+   
+        <!--div de chrono-->
+        <div id="chrono">
+            15:00
+        </div>
+
+    <div class="progress-stacked" id="barprogres">
+        <div class="progress" role="progressbar" aria-label="Segment one" aria-valuenow="15" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">  
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment two" aria-valuenow="30" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div>
+<!--
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div>
+ 
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">   
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;"> 
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;"> 
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">  
+        </div>
+
+        <div class="progress" role="progressbar" aria-label="Segment three" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 6%;">
+        </div> -->
+  </div>
+
+  <div id="carde" class="card d-flex justify-content-evenly">
+        <h4 id="head_question">  Q1: Quel est le bon endroit pour insérer un code JavaScript?</h4>
+   
+       <div id="choix1" class="form-check">
+           <input class="form-check-input" type="radio" name="exampleRadios" id="Radio1" value="">
+           <label class="form-check-label" for="exampleRadios1">La section < head >
+           </label>
+       </div>
+
+       <div id="choix2" class="form-check">
+           <input class="form-check-input" type="radio" name="exampleRadios" id="Radio2" value="">
+           <label class="form-check-label" for="exampleRadios2">Les deux sections < head> et < body> sont correctes</label>
+       </div>
+   
+       <div id="choix3" class="form-check">
+           <input class="form-check-input" type="radio" name="exampleRadios" id="Radio3" value="">
+           <label class="form-check-label" for="exampleRadios3">La section < body></label>
+       </div>
+      
+  </div>
+     <button onclick="Next()" id="next" type="button" class="btn btn-success btn-lg">Next</button>
+</div>
+
+
+ 
+     <script src="Js/bootstrap.bundle.min.js"></script> 
+     <script src="Js/Main.js"></script>
+   
+</body>
+</html>

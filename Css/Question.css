@@ -1,0 +1,71 @@
+
+body{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+}
+
+.container-lg{
+   /* background-color: rgb(46, 63, 63); */
+   height: 100vh;
+   flex-direction: column;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+
+#chrono{
+    /* background-color: rgb(215, 100, 12); */
+    font-size: 30px;
+    text-align: center;
+    color: rgb(8, 143, 197);
+}
+
+.card{
+   display: block;
+    padding: 10px;
+    width: 60%;
+    height: 70vh;
+    box-shadow: 0 0 5px;
+    
+   }
+
+/*style de backround de les choixes*/
+.form-check{
+      background-color: rgb(46, 196, 71);
+      align-items: center;
+      display: flex;
+      border-radius: 5px;
+      font-size: 20px;
+    
+}
+
+/*style de botton radio*/
+.form-check input[type=radio]{
+    width: 4vh;
+    height: 4vh;
+   border: 2px solid rgb(196, 187, 195);
+   }
+
+/*style de progress bar*/
+   .progress-stacked{
+      border: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+       /* height: 10vh;  */
+      width: 100%;
+      background-color:white;
+   }
+
+   /*style de chaque element de progress*/
+   .progress{
+      background-color: rgb(219, 229, 231);
+      border: 0;
+   }
+
+   /*style de chaque div de prgress si en clique sur next*/
+   .progress.active{
+      background-color: rgb(233, 111, 151)
+   }

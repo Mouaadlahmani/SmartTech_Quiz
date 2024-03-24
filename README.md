@@ -1,1 +1,0 @@
-# SmartTech_Quiz
