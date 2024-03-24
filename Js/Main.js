@@ -39,6 +39,7 @@ function pgogress(cont){
        valuebutton.forEach(element=>{
     
         element.children[0].value="";
+        element.children[0].checked=false;
         // console.log('les values des inputs es vide');
       });
 
@@ -60,8 +61,9 @@ function pgogress(cont){
                          "Q5: CSS est un acronyme pour _____",
                          "Q6: DNS traduit ______",
                          "Q7: String en Java est ______",
-                         "Q8: Laquelle de ces méthodes de la classe String est utilisée pour obtenir le caractère à l’index spécifié?"];
-
+                         "Q8: Laquelle de ces méthodes de la classe String est utilisée pour obtenir le caractère à l’index spécifié?",
+                         "3x +17"];
+                         
                                  
       var les_choixs=[ ["Page de garde","Front-end","Page Web"], 
                       ["<script href='myscript.js'>","<script name='myscript.js'>","<script src='myscript.js'>"] ,
@@ -70,17 +72,16 @@ function pgogress(cont){
                       ["le nom de domaine en adresse IP","l’adresse IP en nom de domaine","Les deux A et B sont vrais."],
                       ["une classe","un objet","une variable"],
                       ["charAt()","Charat()","char()"]];
+                      ["x=6","x=4","x=8"]
 
-
-      var reponses=[
+      var reponses=[ "Page Web",
                     "Les deux sections < head> et < body> sont correctes",
-                    "Page Web",
                     ".html",
-                    "Second",
+                    "<script src='myscript.js'>",
                     "Cascading Style Sheet",
                     "le nom de domaine en adresse IP",
                     "une classe",
-                    "charAt()"];
+                    "charAt()","x=4"];
 
     
          
@@ -94,11 +95,11 @@ function CalculerNombreReponse(){
       
         if(reponses.includes(responseFinal)){
             NombreDeReponseCorect++;
-            // console.log('vrai');
+            console.log('vrai');
         }else{
 
           NombreDereponseFaux++;
-          // console.log('faux');
+          console.log('faux');
         }
 }
 
