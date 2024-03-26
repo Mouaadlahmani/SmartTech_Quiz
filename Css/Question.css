@@ -1,0 +1,88 @@
+
+body{
+   margin: 0;
+   padding: 0;
+   display: flex;
+   justify-content: center;
+   background-color: #0B666A;
+}
+
+.container-lg{
+   height: 100vh;
+   flex-direction: column;
+   align-items: center;
+   margin: 0;
+   padding: 0;
+}
+
+#chrono{
+
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.card{
+  
+    padding: 10px;
+    width: 60%;
+    height: 70vh;
+    box-shadow: 0 0 5px;
+   }
+
+/*style de backround de les choixes*/
+.form-check{
+      background-color: #23E6B7;
+      border-radius: 35px;
+      font-size: 20px; 
+      display: flex;
+      align-items: center; 
+      min-height: 40px;
+ 
+}
+
+/*style de question*/
+#head_question{
+ 
+   text-align: center;
+}
+
+/*style de botton radio*/
+.form-check input[type=radio]{
+    width: 5vh;
+    height: 5vh;
+  
+    border: 2px solid rgb(196, 187, 195);
+   }
+
+/*style de progress bar*/
+   .progress-stacked{
+      border: 0;
+      display: flex;
+      align-items: center;
+      justify-content: space-evenly;
+      width: 100%;
+      background-color: #0B666A;
+     
+   }
+
+   /*style de chaque element de progress*/
+   .progress{
+      border: 0;
+   }
+
+   /*style de chaque div de prgress si en clique sur next*/
+   .progress.active{
+      background-color: #23E6B7;
+   }
+
+   /*style de button next*/
+   #next{
+      background-color: #23E6B7;
+   }
+
+   /*stle se label*/
+   .form-check-label{
+     
+      margin-left: 0.5em;
+   }
